@@ -4,7 +4,7 @@
 
 - `git clone git@github.com:diegofnunesbr/kind.git`
 - `cd kind`
-- `kind create cluster --config install.yaml --name k8s`
+- `kind create cluster --config install.yaml`
 
 ### Configurar o NGINX Ingress Controller no Kind:
 
@@ -12,4 +12,4 @@
 
 ### Remover cluster no Kind:
 
-- `kind delete cluster --name k8s`
+- `kind delete cluster`
